@@ -1,9 +1,9 @@
-spring cloud demo ,ÊµÀı´úÂëÏê½âÇë²Î¿¼ http://blog.didispace.com/springcloud1/
+spring cloud demo ,å®ä¾‹ä»£ç è¯¦è§£è¯·å‚è€ƒ http://blog.didispace.com/springcloud1/
 
-server-cluster-1 : ·şÎñ×¢²áÖĞĞÄ £¬¹¤³Ì¿ÉÒÔ´ò³Éjar°ü£¬Æô¶¯¶à¸öÊµÀıĞÎ³ÉÒ»¸ö×¢²á·şÎñ¼¯Èº£¬¹¤³ÌÀïÅäÖÃÁË3¸öÊµÀı£¬Æô¶¯·½Ê½ÈçÏÂ£º
+server-cluster-1 : æœåŠ¡æ³¨å†Œä¸­å¿ƒ ï¼Œå·¥ç¨‹å¯ä»¥æ‰“æˆjaråŒ…ï¼Œå¯åŠ¨å¤šä¸ªå®ä¾‹å½¢æˆä¸€ä¸ªæ³¨å†ŒæœåŠ¡é›†ç¾¤ï¼Œå·¥ç¨‹é‡Œé…ç½®äº†3ä¸ªå®ä¾‹ï¼Œå¯åŠ¨æ–¹å¼å¦‚ä¸‹ï¼š
                    java -jar server-cluster-1.jar --spring.profiles.active=peer1
                    java -jar server-cluster-1.jar --spring.profiles.active=peer2
                    java -jar server-cluster-1.jar --spring.profiles.active=peer3
-service-A :·şÎñ×¢²á ×¢²á¶à¸ö·şÎñÊµÀı£¬¿ÉÒÔ²Î¿¼server-cluster-1
-gateway:   ·şÎñÍø¹Ø 
-eureka-feign: ·şÎñ·¢ÏÖ,Ê¹ÓÃµÄÊÇfeign,Ò²¿ÉÒÔÊ¹ÓÃribbon,feign,¹¦ÄÜ¸üÇ¿´ó£¬Ä¬ÈÏÖ§³Ö·şÎñµ÷ÓÃµÄ¸ºÔØ¾ùºâ£¬ÒÔ¼°ÈÛ¶ÏºÍ½µ¼¶ 
+service-A :æœåŠ¡æ³¨å†Œ æ³¨å†Œå¤šä¸ªæœåŠ¡å®ä¾‹ï¼Œå¯ä»¥å‚è€ƒserver-cluster-1
+gateway:   æœåŠ¡ç½‘å…³ 
+eureka-feign: æœåŠ¡å‘ç°,ä½¿ç”¨çš„æ˜¯feign,ä¹Ÿå¯ä»¥ä½¿ç”¨ribbon,feign,åŠŸèƒ½æ›´å¼ºå¤§ï¼Œé»˜è®¤æ”¯æŒæœåŠ¡è°ƒç”¨çš„è´Ÿè½½å‡è¡¡ï¼Œä»¥åŠç†”æ–­å’Œé™çº§ 
